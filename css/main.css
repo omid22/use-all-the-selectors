@@ -1,8 +1,9 @@
 html {
   box-sizing: border-box;
   background-color: #fdf6e3;
-  font-family: helvetica, sans-serif;
-  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
 }
 
 *, *::before, *::after {
@@ -22,7 +23,7 @@ nav ul {
 }
 
 .wrapper {
-  background-color:#eee8d5;
+  background-color: #eee8d5;
 }
 
 h2 {
@@ -53,12 +54,14 @@ ol li:last-child {
   color: #2aa198;
 }
 
-ul li:nth-child(odd) {
+.types li:nth-child(odd) {
   background-color: #657ba3;
 }
 
-ul li:nth-child(even) {
+.types li:nth-child(even) {
   background-color: #586e75;
 }
 
-ul li:
+.types li:nth-child(3n) {
+  background-color: #d04b16;
+}
